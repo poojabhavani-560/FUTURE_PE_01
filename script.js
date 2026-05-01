@@ -1,39 +1,58 @@
-// Booking Function
-function bookAppointment() {
-    let name = prompt("Enter your name:");
-    let service = prompt("Enter service (Haircut / Facial / Makeup):");
-
-    if (name && service) {
-        alert("Thank you " + name + "! Your booking for " + service + " is confirmed.");
-    } else {
-        alert("Please enter valid details.");
-    }
-}
-
-// Add click event to all CTA buttons
 document.addEventListener("DOMContentLoaded", function () {
-    let ctas = document.querySelectorAll(".cta");
 
-    ctas.forEach(function(btn) {
-        btn.addEventListener("click", bookAppointment);
+  // Smooth scroll for button links
+  const buttons = document.querySelectorAll('a[href^="#"]');
+
+  buttons.forEach(button => {
+    button.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute("href");
+      const targetSection = document.querySelector(targetId);
+
+      if (targetSection) {
+        targetSection.scrollIntoView({
+          behavior: "smooth"
+        });
+      }
     });
-});
+  });
 
-// Dynamic Greeting based on time
-function setGreeting() {
-    let headerText = document.querySelector("header p");
-    let hour = new Date().getHours();
-    let greeting = "";
+  // Show alert when call button is clicked
+  const callButton = document.querySelector('.cta .btn');
 
+  if (callButton) {
+    callButton.addEventListener("click", function () {
+      alert("Thank you for choosing Alika The Salon! We will connect with you shortly.");
+    });
+  }
+
+  // Service card hover animation effect
+  const serviceCards = document.querySelectorAll(".service-card");
+
+  serviceCards.forEach(card => {
+    card.addEventListener("mouseenter", () => {
+      card.style.transform = "translateY(-10px) scale(1.03)";
+    });
+
+    card.addEventListener("mouseleave", () => {
+      card.style.transform = "translateY(0) scale(1)";
+    });
+  });
+
+  // Dynamic greeting based on time
+  const header = document.querySelector("header h1");
+
+  const hour = new Date().getHours();
+
+  if (header) {
     if (hour < 12) {
-        greeting = "Good Morning!";
+      header.innerText = "Good Morning! Feel Confident Every Time You Walk Out";
     } else if (hour < 18) {
-        greeting = "Good Afternoon!";
+      header.innerText = "Good Afternoon! Feel Confident Every Time You Walk Out";
     } else {
-        greeting = "Good Evening!";
+      header.innerText = "Good Evening! Feel Confident Every Time You Walk Out";
     }
+  }
 
-    headerText.innerText += " | " + greeting;
-}
-
-setGreeting();
+});
