@@ -1,117 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FreshGlow Beauty Salon - Website Copy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f9f9f9;
-            line-height: 1.6;
-        }
-        header {
-            background: #222;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-            margin: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .cta {
-            background: #222;
-            color: white;
-            padding: 15px;
-            margin-top: 10px;
-            border-radius: 5px;
-            text-align: center;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background: #222;
-            color: white;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GlowCare Skin Clinic</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f8fb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #0f4c81, #3aa6b9);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: white;
+      color: #0f4c81;
+      padding: 12px 24px;
+      text-decoration: none;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #e6f0f5;
+    }
+
+    .section {
+      padding: 60px 20px;
+    }
+
+    .section h2 {
+      font-size: 34px;
+      margin-bottom: 20px;
+      color: #0f4c81;
+      text-align: center;
+    }
+
+    .section p {
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .services {
+      background-color: #ffffff;
+    }
+
+    .service-box {
+      background: #eaf4f8;
+      margin: 20px auto;
+      padding: 25px;
+      border-radius: 10px;
+      max-width: 700px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .service-box h3 {
+      color: #0f4c81;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .service-box p {
+      text-align: center;
+    }
+
+    .cta {
+      background: #0f4c81;
+      color: white;
+      text-align: center;
+    }
+
+    .cta h2 {
+      color: white;
+    }
+
+    .cta p {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background: #082c4a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      .hero p,
+      .section p {
+        font-size: 16px;
+      }
+
+      .section h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-<header>
-    <h1>FreshGlow Beauty Salon</h1>
-    <p>Glow with Confidence at Eluru’s Most Trusted Beauty Salon</p>
-</header>
+  <header class="hero">
+    <div class="container">
+      <h1>GlowCare Skin Clinic</h1>
+      <p>Clear Skin. Real Confidence. Expert Care You Can Trust.</p>
+      <a href="#contact" class="btn">Book Appointment</a>
+    </div>
+  </header>
 
-<section>
-    <h2>About Us</h2>
-    <p>At FreshGlow Beauty Salon, we believe beauty is more than just appearance — it’s confidence. Our expert stylists and skincare professionals provide personalized services tailored to your needs.</p>
-</section>
+  <section class="section">
+    <div class="container">
+      <h2>Healthy, Glowing Skin Starts Here</h2>
+      <p>Helping people in Hyderabad achieve radiant and healthy skin with expert care and personalized treatments.</p>
+    </div>
+  </section>
 
-<section>
-    <h2>Our Services</h2>
+  <section class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>GlowCare Skin Clinic provides expert dermatology care with modern technology, trusted treatments, and a patient-first approach.</p>
+    </div>
+  </section>
 
-    <h3>Hair Styling & Haircuts</h3>
-    <ul>
-        <li>Trendy haircuts</li>
-        <li>Hair spa and treatments</li>
-        <li>Event styling</li>
-    </ul>
+  <section class="section services">
+    <div class="container">
+      <h2>Our Services</h2>
 
-    <h3>Facial & Skincare</h3>
-    <ul>
-        <li>Deep cleansing facials</li>
-        <li>Anti-aging treatments</li>
-        <li>Skin brightening</li>
-    </ul>
+      <div class="service-box">
+        <h3>Acne Treatment</h3>
+        <p>Clearer skin with long-term results and expert skin guidance.</p>
+      </div>
 
-    <h3>Bridal & Party Makeup</h3>
-    <ul>
-        <li>Bridal packages</li>
-        <li>Party makeup</li>
-        <li>HD makeup</li>
-    </ul>
+      <div class="service-box">
+        <h3>Skin Brightening</h3>
+        <p>Radiant, healthy, and even-toned skin with safe treatment options.</p>
+      </div>
 
-    <h3>Manicure & Pedicure</h3>
-    <ul>
-        <li>Nail care</li>
-        <li>Gel polish</li>
-        <li>Spa treatments</li>
-    </ul>
-</section>
+      <div class="service-box">
+        <h3>Anti-Aging Solutions</h3>
+        <p>Professional care to maintain youthful, fresh, and healthy-looking skin.</p>
+      </div>
 
-<section>
-    <h2>Why Choose Us</h2>
-    <p>Experienced professionals, quality products, and a focus on customer satisfaction make us the preferred salon in Eluru.</p>
-</section>
+      <div class="service-box">
+        <h3>Laser Hair Removal</h3>
+        <p>Smooth, hair-free skin with advanced and comfortable procedures.</p>
+      </div>
+    </div>
+  </section>
 
-<section>
-    <h2>Book Now</h2>
-    <div class="cta">Book Your Appointment Today and Experience the Glow!</div>
-    <div class="cta">Limited Slots Available – Reserve Your Spot Now!</div>
-    <div class="cta">Trusted by 500+ Happy Clients</div>
-</section>
+  <section class="section cta" id="contact">
+    <div class="container">
+      <h2>Book Your Consultation</h2>
+      <p>Take the first step toward healthier skin with trusted specialists.</p>
+      <button class="btn" onclick="showMessage()">Book Appointment</button>
+    </div>
+  </section>
 
-<section>
-    <h2>Workflow Diagram</h2>
-    <pre>
-Prompt Inputs → AI Processing → Website Copy → Customer Conversion
-    </pre>
-</section>
+  <footer>
+    <p>© 2026 GlowCare Skin Clinic. All Rights Reserved.</p>
+  </footer>
 
-<footer>
-    <p>© 2026 FreshGlow Beauty Salon | Eluru</p>
-</footer>
+  <script>
+    function showMessage() {
+      alert("Thank you! Your appointment request has been submitted.");
+    }
+  </script>
 
 </body>
 </html>
