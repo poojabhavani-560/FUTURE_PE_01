@@ -1,0 +1,158 @@
+# AI Website Copy Generator for Local Businesses
+
+## 1. Business Chosen
+
+**Business Name:** FreshGlow Beauty Salon
+**Location:** Eluru
+**Type:** Salon (Beauty & Grooming)
+
+---
+
+## 2. About the Business
+
+FreshGlow Beauty Salon is a local beauty and grooming service provider offering haircuts, facials, bridal makeup, and skincare treatments. The salon targets women and young professionals who want affordable, high-quality beauty services.
+
+---
+
+## 3. Prompt Framework (Reusable)
+
+### Master Prompt:
+
+"Generate high-converting website copy for a [business type] located in [location]. Include homepage, services, and CTA sections. Use a [tone type] tone. Focus on benefits, trust, and local relevance. Avoid generic content."
+
+### Inputs:
+
+* Business Type
+* Location
+* Target Audience
+* Services Offered
+* Tone (friendly/professional)
+
+---
+
+## 4. Homepage Copy
+
+### Headline:
+
+"Glow with Confidence at Eluru’s Most Trusted Beauty Salon"
+
+### Sub-headline:
+
+Affordable, professional beauty services designed for modern women who want to look and feel their best.
+
+### Introduction:
+
+At FreshGlow Beauty Salon, we believe beauty is more than just appearance — it’s confidence. Our expert stylists and skincare professionals provide personalized services tailored to your needs. Whether it’s a quick haircut or complete bridal makeup, we ensure you leave feeling refreshed and radiant.
+
+---
+
+## 5. Services Page Content
+
+### 1. Hair Styling & Haircuts
+
+* Trendy haircuts for all face types
+* Hair spa and treatments
+* Professional styling for events
+
+**Why Choose Us:** Experienced stylists using quality products for long-lasting results.
+
+### 2. Facial & Skincare
+
+* Deep cleansing facials
+* Anti-aging treatments
+* Skin brightening solutions
+
+**Why Choose Us:** Customized skincare based on your skin type.
+
+### 3. Bridal & Party Makeup
+
+* Bridal packages
+* Party makeup
+* HD and airbrush makeup
+
+**Why Choose Us:** Professional artists ensuring flawless looks for special occasions.
+
+### 4. Manicure & Pedicure
+
+* Nail care and cleaning
+* Gel polish
+* Relaxing spa treatments
+
+**Why Choose Us:** Hygienic and relaxing experience.
+
+---
+
+## 6. CTA Sections
+
+### Booking CTA:
+
+"Book Your Appointment Today and Experience the Glow!"
+
+### Urgency CTA:
+
+"Limited Slots Available – Reserve Your Spot Now!"
+
+### Trust CTA:
+
+"Trusted by 500+ Happy Clients in Eluru"
+
+### Location CTA:
+
+"Visit FreshGlow Salon Near You in Eluru – Walk-ins Welcome!"
+
+---
+
+## 7. Tone Adaptation
+
+* Friendly Tone: Used for welcoming and engaging customers
+* Simple Language: Easy to understand for all customers
+* Confident Messaging: Builds trust and credibility
+
+---
+
+## 8. Tools Used
+
+* ChatGPT (for generating content)
+
+---
+
+## 9. README Content (for GitHub)
+
+### Project Title:
+
+AI Website Copy Generator for Local Businesses
+
+### Description:
+
+This project demonstrates how AI and prompt engineering can be used to generate high-quality, conversion-focused website copy for local businesses.
+
+### Business Chosen:
+
+FreshGlow Beauty Salon (Eluru)
+
+### Features:
+
+* Homepage copy generation
+* Service page content
+* Call-to-action sections
+* Reusable prompt system
+
+### How It Works:
+
+The system uses structured prompts with inputs like business type, location, and tone to generate customized website copy.
+
+### Tools Used:
+
+* ChatGPT
+
+---
+
+## 10. Conclusion
+
+This project shows how AI can help local businesses improve their website content, attract more customers, and increase conversions. The prompt framework is reusable and can be applied to different types of businesses like cafes, clinics, and coaching centers.
+
+---
+
+## (Optional) Diagram: Workflow
+
+Prompt Inputs → AI Processing → Website Copy Output → Business Use
